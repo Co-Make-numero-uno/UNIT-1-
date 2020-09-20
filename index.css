@@ -1,0 +1,269 @@
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body{
+    background-color: #f4f3ee;
+    overflow-x: hidden;
+}
+
+.navBar{
+    display: flex;
+    background-color:#8d99ae;
+    width: 100%;
+    justify-content: center;
+
+
+}
+.navBar ul{
+    display: flex;
+
+}
+.navBar ul li{
+    display: flex;
+
+}
+
+.navBar ul li a{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: .5rem;
+    margin: .5rem ;
+    width: 10rem;
+	text-align: center;
+	font-size: 2.50rem;
+    text-decoration: none;
+    color:#242423;
+    justify-content: center;
+
+
+}
+.navBar ul li a:hover {
+	background:#ef233c;
+	color: white;
+}
+
+.signup{
+    width: 100%;
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signup h1{
+    font-size: 7rem;
+    color: #242423;
+    margin-left:35px;
+}
+.div1{
+    background-color:#edf2f4;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+
+}
+.signup button{
+    font-size: 3rem;
+    border-radius: .5rem;
+    color: #f4f3ee;
+    background-color:#ef233c ;
+    margin: 1rem;
+    margin-right: 4%;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 30rem;
+}
+
+.signup button:hover{
+    color: #ef233c;
+    background: #f4f3ee;
+}
+hr{
+    position: relative;  
+    width: -300;
+    top: 10px; 
+    border: none; 
+    height: 5px;  
+    background: black; 
+    margin-bottom:40px;
+    width: 25%;
+    margin-left: 37%;
+
+}
+
+
+.services{
+    display: flex;
+    padding-top: 20rem;
+    flex-direction: column;
+    align-items: center;
+}
+.services h2{
+    font-size: 3rem;
+    
+}
+ .hr1{
+    width:25%;
+    margin: 0 auto;
+}
+.box-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.single-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    border-radius: 4px;
+    background-color: #f4f3ee;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.single-box:hover{
+    background-color: #ef233c;
+    color: #f4f3ee;
+}
+
+.single-box h3{
+    font-size: 2rem;
+}
+.single-box p{
+    font-size: 2rem;
+}
+
+
+
+    /* About page*/
+
+
+
+    .wrapper{
+        margin-top: 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .wrapper h1{
+        font-family: 'Yatra One', cursive;
+        font-size: 48px;
+        color: black;
+        margin-bottom: 25px;
+      }
+      .wrapper hr{
+        width: 25%;
+        margin-left: 37%;
+    
+      }
+      
+      .our_team{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+      }
+
+      .our_team .team_member:hover{
+          background-color: #ef233c;
+      }
+      
+      .our_team .team_member{
+        width: 350px;
+        margin: 20px;
+        background: #fff;
+        padding: 20px 10px;
+      }
+      
+      .our_team .team_member .member_img{
+        background: #e9e5fa;  
+        max-width: 190px;
+        width: 100%;
+        height: 190px;
+        margin: 0 auto;
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+      }
+      
+      .our_team .team_member .member_img img{
+        width: 100%;
+        height: 100%;
+      }
+      
+      .our_team .team_member h3{
+        text-transform: uppercase;
+        font-size: 22px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin: 15px 0 0px;
+      }
+      
+      .our_team .team_member span{
+        font-size: 18px;
+      }
+      
+      .our_team .team_member p{
+        margin-top: 20px;
+        font-size: 30px;
+        line-height: 20px;
+      }
+      
+      .about-footer{
+        padding-top: 12rem;
+      }
+
+
+
+
+      @media screen and (max-width:500px){
+
+        .navBar{
+            flex-direction: column;
+            align-items: center;
+    
+    
+        }
+        .navBar ul{
+            width: 100%;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+    
+        .navBar ul li{
+            align-items: center;
+    
+        }
+    
+        .navBar ul li a{
+            width: 100%;
+            font-size: 3.50rem;
+    
+        }
+        .services h2{
+            margin-left: ;
+        }
+        .div1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+        }
+        .btn1{
+            width: 20rem;
+        }
+
+    
+    }
